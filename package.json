@@ -1,0 +1,21 @@
+{
+  "name": "puppeteerdorbitton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./test",
+    "test:e2e": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./test/e2e/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "puppeteer": "^19.7.5",
+    "puppeteer-core": "^19.7.5"
+  },
+  "devDependencies": {
+    "jest-puppeteer": "^8.0.5"
+  }
+}
